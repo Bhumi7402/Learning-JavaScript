@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Elements</title>
+</head>
+<body>
+    <script>
+        var a = ["Bhumi", 21, "Female", "Dhule", "Software Developer"];
+        document.write(a + "<br>");
+
+        a[4] = "Shirpur" ;
+        a[2] = 21;
+
+        document.write(a + "<br>");
+        delete a[4];
+        delete a[3];
+
+        document.write(a + "<br>");
+    </script>
+    <br>
+
+    <h2>Sorting and Reverse</h2>
+    <script>
+        var b = [" Shantanu", " Sumedh", " Ashvini", " Mansoor", " Pratiksha", " Swati"];
+        document.write(b + "<br>");
+        b.sort();
+         document.write(b + "<br>");
+
+        b.reverse();
+          document.write(b + "<br>");
+    </script>
+    <br>
+
+    <h2>Pop and Push</h2>
+    <script>
+        var c = [" Shantanu", " Dnyaneshwari", " Ashvini", " Mansoor", " Prathamesh", " Bhumi"];
+        document.write(c, "<br>");
+
+        c.pop();
+        c.pop();
+        c.pop();
+        document.write(c, "<br>");
+
+        c.push(" Chetna");
+        c.push(" Bhumi");
+        document.write(c, "<br>");
+    </script>
+    <br>
+
+    <h2>Shift Unshift</h2>
+    <script>
+        var d = [" Shantanu", " Dnyaneshwari", " Ashvini", " Mansoor", " Prathamesh", " Bhumi"];
+        document.write(d, "<br>");
+        d.shift();
+        d.shift();
+        document.write(d, "<br>");
+
+        d.unshift("Chetna");
+        document.write(d, "<br>");
+    </script>
+    <br>
+
+    <h2>Concat & Join</h2>
+    <script>
+        var p = [" Shantanu", " Dnyaneshwari", " Ashvini", " Mansoor", " Prathamesh", " Bhumi"];
+        var q = [" Vivek", " Yogini", " Laju", " Sanyukta"];
+        var s = [" Vrushika", " Shweta", " Sakshi"];
+
+        var r = p.concat(q);
+        document.write(r, "<br>");
+
+        // var r = p.concat(q.concat(s));
+        var r = p.concat(q,s);
+        document.write(r, "<br>");
+
+        var x = r.join("/");
+        document.write(x, "<br>");
+    </script>
+
+</body>
+</html>
