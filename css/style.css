@@ -1,0 +1,31 @@
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form{
+    width: 430px;
+    margin-top: 20px;
+    padding: 30px;
+    border: 2px solid #1b263b;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
